@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <script src="js.js" defer></script>
+        <h1>to do list 🤓🐕</h1>
+        <button class="open-button" onclick='openForm()'>Add</button>
+            <div class="form-popup" id="myForm">
+            <form action="" class="form-container">
+                <label for="t">Enter your title:</label>
+                <input type="text" class="t" id="t">
+                <label for="des">Enter your desciption:</label>
+                <input type="text" class="des" id="des">
+                <label for="date">Deadline:</label>
+                <input type="date" name="date" id="date">
+                <input type="submit" class="btn" value="Add and Save" onsubmit="closeForm()" >
+        </form>
+        </div>
+</body>
+</html>
